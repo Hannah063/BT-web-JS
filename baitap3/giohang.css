@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    margin: 0 auto;
+}
+.menu {
+    border-radius: 5px;
+    background: black;
+    height: 50px;
+    text-align: center; /* Căn giữa nội dung trong .menu */
+}
+.menu ul {
+    display: inline-block; /* Để nội dung ul hiển thị trên cùng nhau */
+}
+
+.menu li {
+    list-style: none;
+    display: inline; /* Hiển thị các mục menu cạnh nhau */
+    margin-right: 15px; /* Khoảng cách giữa các mục menu */
+    color: white;
+    line-height: 45px;
+}
+.menu ul li:hover{
+    opacity: .7;
+    color: yellow;
+}
+#style{
+    color: green;
+    border: 1px solid green;
+    background: black;
+    line-height: 25px;
+    padding: 0px 15px;
+}
+input{
+    line-height: 25px;
+    padding: 0px 15px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 980px;
+}
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+img {
+    width: 100px;
+    margin: 15px;
+}
+#giohang{
+    text-align: center;
+}
+.button {  
+    font-size: 17px;
+    background-color: red;  
+    color: black;  
+    border: 2px solid #DC143C;
+    border-radius: 4px;
+}

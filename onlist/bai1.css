@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana,sans-serif;
+}
+.row img{
+    float: left;
+}
+.row p{
+    float: left;
+    font-size: larger;
+}
+.mener ul li{
+    list-style: none;
+    float: left;
+    padding: 22px 15px;
+}
+.mener ul li a{
+    text-decoration: none;
+}
+.mener li:hover {
+    background: red;
+}
+
+.content {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 5px 10px;
+}
+
+.product {
+    min-width: 208px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 150px;
+}
+  
+.product h3 {
+    margin: 10px 0;
+}
+  
+.product p {
+    font-weight: bold;
+}

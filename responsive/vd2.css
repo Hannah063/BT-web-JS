@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: white;
+}
+.vtc{
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
+.vtcacademy{
+    color: green;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        text-align: left;
+        background-color: green;
+    }
+    .vtc{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    .vtcacademy{
+        color: white;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body {
+        text-align: right;
+        background-color: blue;
+    }
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100hv;
+}
+
+.container{
+    width: 650px;
+    height: 550px;
+    border: 1px solid rgb(225, 228, 228);
+    margin: 120px auto;
+    background-color: rgb(225, 228, 228);
+}
+
+.row{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+}
+
+label{
+    width: 40%;
+    text-align: right;
+    padding-right: 25px;
+    font-weight: bold;
+    margin: 18px 0px;
+}
+
+.info{
+    width: 50%;
+    margin-top: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 15%;
+    text-align: center;
+    padding: 5px 0px;
+    border: 1px solid black;
+}
+
+input, select{
+    width: 85%;
+    height: 35px;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.submit{
+    width: 25%;
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    background-color: rgb(230, 163, 48);
+}
+
+input[type=submit]{
+    border: none;
+    outline: none;
+    background-color: rgb(230, 163, 48);
+    height: 30px;
+    width: 55px;
+}
+

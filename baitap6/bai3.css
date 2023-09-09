@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    position: relative;
+    margin: 120px auto;
+}
+.signup-box{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 250px;
+    margin-left: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid;
+}
+.signup-box form div{
+    margin-bottom: 10px;
+}
+.or p{
+    background-color: rgb(216, 216, 215);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+}
+.or{
+    position: absolute;
+    left: 220px;
+    
+}
+.signup-box input{
+    outline: none;
+    border: none;
+    padding-bottom: 8px;
+    border-bottom: 0.5px solid rgb(205, 205, 203);
+}
+input[type="submit"]{
+    height: 30px;
+    width: 100px;
+    padding: 0px;
+    border: 1px solid;
+    background-color: rgb(120, 215, 155);
+    border-radius: 10px;
+}
+
+.signin{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(bautroi.jpeg);
+    margin-left: -20px;
+    
+}
+.signin p{
+    width: 110px;
+    font-size: 18px;
+    align-items: center;
+}
+.option2 input[type="button"]{
+    width: 180px;
+    border-radius: 5px;
+    outline-style: ridge pink;
+    height: 35px;
+}
+.option2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}

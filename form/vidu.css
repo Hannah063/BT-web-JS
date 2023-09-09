@@ -1,0 +1,23 @@
+input[type=text]{
+    background-color: aqua;
+    border: solid 1px red;
+    height: 20px;
+    width: 200px;
+}
+input[type=radio], input[type=checkbox]{
+    width: 25px;
+    margin: 10px 2px;
+}
+input[type=submit]{
+    color: black;
+    background-color: red;
+    width: 70px;
+    height: 25px;
+}
+textarea{
+    background-color: aqua;
+    margin: 15px 0px;
+}
+select{
+    background-color: aqua;
+}

@@ -1,0 +1,53 @@
+.menu ul{
+    background: rgb(128, 214, 37);
+    width: 250px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+}
+.menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 1em;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+.menu li:hover {
+    background: red;
+}
+.content{
+    display: none;
+}
+li:hover .content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 5px 10px;
+    position: relative;
+    left: 225px;
+}
+
+.product {
+    min-width: 208px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 150px;
+}
+  
+.product h3 {
+    margin: 10px 0;
+}
+  
+.product p {
+    font-weight: bold;
+}

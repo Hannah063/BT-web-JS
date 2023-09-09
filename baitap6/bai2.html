@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="bai2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="account">   
+                <p>Account</p>
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="Email Adress">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-key"></i>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="Password">
+                    </div>
+                </div>
+            </div>
+            <div class="date-gender">
+                <div class="date">
+                    <p>Date of birth</p>
+                    <div class="date-of-birth">
+                        <input class="box-date" type="text" placeholder="DD">
+                        <input class="box-date" type="text" placeholder="MM">
+                        <input class="box-date" type="text" placeholder="YYYY" style="width: 60px;">
+                    </div>
+                </div>
+                <div class="gender">
+                    <p>Gender</p>
+                    <div class="gender-item">
+                        <input type="radio" id="male"  name="gender" value="Male" checked="checked">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female"  name="gender" value="Female" checked="checked">
+                        <label for="female">Female</label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="payment">
+                <div class="payment-option">      
+                    <div class="credit">
+                        <i class="fa fa-credit-card" id="credit"></i>
+                        <label for="credit">Credit Card</label>
+                    </div>
+                    <div class="paypal">
+                        <i class="fa fa-paypal" id="paypal"></i>
+                        <label for="paypal">Paypal</label>
+                    </div>
+                </div>
+                <div class="cardnumber">
+                    <div class="icon">
+                        <i class="fa fa-credit-card"></i>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                </div>
+                <div class="cardbottom">
+                    <div class="cardCVC">
+                        <div class="icon">
+                            <i class="fa fa-user" ></i>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="card VNC">
+                        </div>
+                    </div>
+                    <div class="select-month">
+                        <div class="month">
+                            <select name="datemonth" id="">
+                                <option value=""></option>
+                                <option value="01 Jan">01 Jan</option>
+                                <option value="02 Jan">02 Jan</option>
+                            </select>                            
+                        </div>
+                        <div class="year">
+                            <select name="year" id="">
+                                <option class="option" value=""></option>
+                                <option class="option" value="2003">2003</option>
+                                <option class="option" value="2004">2004</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

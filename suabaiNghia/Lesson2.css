@@ -158,7 +158,8 @@ hr{
         padding:16px;
     }
     
-    .book{
-        text-align: center;
+    .book button{
+        width: 80%;
+        margin: 0 10%;
     }
 }

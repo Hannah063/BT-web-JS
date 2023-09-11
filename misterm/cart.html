@@ -4,81 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="cart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="title">
-            <div class="item">Item</div>
-            <div class="price">Price</div>
-            <div class="quantity">Quantity</div>
-            <div class="total">Total</div>
-        </div>
-        <div class="product">
-            <ul>
-                <li>
-                    <div class="itemA">
+    <div class="container-fluid">
+        <ul class="nav nav-pills bg-info p-1.5">
+            <li class="nav-item col-sm-5" >
+              <a class="nav-link" data-bs-toggle="pill">Title</a>
+            </li>
+            <li class="nav-item col-sm-2">
+              <a class="nav-link" data-bs-toggle="pill">Price</a>
+            </li>
+            <li class="nav-item col-sm-2">
+              <a class="nav-link" data-bs-toggle="pill">Quantity</a>
+            </li>
+            <li class="nav-item col-sm-3">
+                <a class="nav-link" data-bs-toggle="pill">Total</a>
+              </li>
+          </ul>
+        <div class="container-fluid">
+            <ul class="list-group">
+                <li class="nav my-3">
+                    <div class="col-sm-2">
                         <img src="https://www.sareso.net/users/eshopping/images/home/recommend2.jpg" alt="">
-                        <p>Colorblock Scuba <br>Web ID: 1089772</p>
                     </div>
-                    <div class="number">
-                        $59
-                    </div>
-                    <div class="add">
+                    <p class="col-sm-3 m-auto">Colorblock Scuba <br>Web ID: 1089772</p>
+                    <p class="col-sm-2 px-3 m-auto">$59</p>
+                    <div class="col-sm-2 m-auto">
                         <input class="minus is-form" type="button" value="-">
-                        <input aria-label="quantity" class="input-qty" min="1" type="number" value="1">
+                        <input aria-label="quantity" class="input-qty w-25" min="1" type="number" value="1">
                         <input class="plus is-form" type="button" value="+">
                     </div>
-                    <div class="sum">
-                        $59
-                    </div>
-                    <div class="icon">
-                        <i class="fa-solid fa-rectangle-xmark"></i>
+                    <p class="col-sm-1 px-4 m-auto">$59</p>
+                    <div class="col-sm-2 m-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16" >
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"/>
+                          </svg>
                     </div>
                 </li>
-                <li>
-                    <div class="itemA">
+                <li class="nav mb-3">
+                    <div class="col-sm-2">
                         <img src="https://www.sareso.net/users/eshopping/images/home/recommend3.jpg" alt="">
-                        <p>Colorblock Scuba <br>Web ID: 1089772</p>
                     </div>
-                    <div class="number">
-                        $59
-                    </div>
-                    <div class="add">
+                    <p class="col-sm-3 m-auto">Colorblock Scuba <br>Web ID: 1089772</p>
+                    <p class="col-sm-2 px-3 m-auto">$59</p>
+                    <div class="col-sm-2 m-auto">
                         <input class="minus is-form" type="button" value="-">
-                        <input aria-label="quantity" class="input-qty" min="1" type="number" value="1">
+                        <input aria-label="quantity" class="input-qty w-25" min="1" type="number" value="1">
                         <input class="plus is-form" type="button" value="+">
                     </div>
-                    <div class="sum">
-                        $59
+                    <p class="col-sm-1 px-4 m-auto">$59</p>
+                    <div class="col-sm-2 m-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"/>
+                        </svg>
                     </div>
-                    <div class="icon">
-                        <i class="fa-solid fa-rectangle-xmark"></i>
-                    </div>
-                </li>
-                <li>
-                    <div class="itemA">
+                </li>  
+                <li class="nav">
+                    <div class="col-sm-2">
                         <img src="https://www.sareso.net/users/eshopping/images/home/recommend1.jpg" alt="">
-                        <p>Colorblock Scuba <br>Web ID: 1089772</p>
                     </div>
-                   <div class="number">
-                        $59
-                    </div>
-                    <div class="add">
+                    <p class="col-sm-3 m-auto">Colorblock Scuba <br>Web ID: 1089772</p>
+                    <p class="col-sm-2 px-3 m-auto">$59</p>
+                    <div class="col-sm-2 m-auto">
                         <input class="minus is-form" type="button" value="-">
-                        <input aria-label="quantity" class="input-qty" min="1" type="number" value="1" >
+                        <input aria-label="quantity" class="input-qty w-25" min="1" type="number" value="1">
                         <input class="plus is-form" type="button" value="+">
                     </div>
-                    <div class="sum">
-                        $59
-                    </div>
-                    <div class="icon">
-                        <i class="fa-solid fa-rectangle-xmark"></i>
+                    <p class="col-sm-1 px-4 m-auto">$59</p>
+                    <div class="col-sm-2 m-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"/>
+                        </svg>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </html>
